@@ -4,7 +4,8 @@ import { MongoClient } from 'mongodb';
 const URI = process.env.URI;
 
 const client = new MongoClient(URI);
-const main = async () => {
+
+const Fetch = async () => {
     try {
         await client.connect();
         console.log('Connected to mongoDB');
@@ -29,4 +30,8 @@ const main = async () => {
     }
 }
 
-export default main;
+const Insert = async () => {
+
+}
+
+export { Fetch, Insert };
