@@ -1,0 +1,19 @@
+{
+  "name": "not.com",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --env-file=.env main.js --watch"
+  },
+  "keywords": [
+    "mongoDB", "nodejs", "express", "notes", "app" 
+  ],
+  "author": "Gourav Sharma",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "mongodb": "^6.9.0"
+  }
+}
